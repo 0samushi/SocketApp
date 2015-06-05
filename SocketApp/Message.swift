@@ -9,12 +9,25 @@
 import Foundation
 
 class Message: NSObject {
-    var text = ""
+    let objectId: String
+    let text: String
     
-    
-    override init(){}
-    
-    init(_ text:String) {
+    init(objectId: String, text: String) {
+        self.objectId = objectId
         self.text = text
+    }
+    
+    init(pfObj: PFObject) {
+        if let objectId = pfObj.objectId {
+            self.objectId = objectId
+        } else {
+            self.objectId = ""
+        }
+        if let t = pfObj.valueForKey("text") as? String {
+            self.text = t
+        } else {
+            self.text = ""
+        }
+        super.init()
     }
 }

@@ -7,8 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2702B11AE6553700B72A49 /* TalkRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2702B01AE6553700B72A49 /* TalkRoom.swift */; };
+		0B2702B41AE6557A00B72A49 /* TalkRoomsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2702B31AE6557A00B72A49 /* TalkRoomsModel.swift */; };
+		0B394E761AE114D00070DB69 /* SocketAckMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E691AE114D00070DB69 /* SocketAckMap.swift */; };
+		0B394E771AE114D00070DB69 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E6A1AE114D00070DB69 /* SocketAnyEvent.swift */; };
+		0B394E781AE114D00070DB69 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E6B1AE114D00070DB69 /* SocketEngine.swift */; };
+		0B394E791AE114D00070DB69 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E6C1AE114D00070DB69 /* SocketEngineClient.swift */; };
+		0B394E7A1AE114D00070DB69 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E6D1AE114D00070DB69 /* SocketEventHandler.swift */; };
+		0B394E7B1AE114D00070DB69 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E6E1AE114D00070DB69 /* SocketFixUTF8.swift */; };
+		0B394E7C1AE114D00070DB69 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E6F1AE114D00070DB69 /* SocketIOClient.swift */; };
+		0B394E7D1AE114D00070DB69 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E701AE114D00070DB69 /* SocketLogger.swift */; };
+		0B394E7E1AE114D00070DB69 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E711AE114D00070DB69 /* SocketPacket.swift */; };
+		0B394E7F1AE114D00070DB69 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E721AE114D00070DB69 /* SocketParser.swift */; };
+		0B394E801AE114D00070DB69 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E731AE114D00070DB69 /* SocketTypes.swift */; };
+		0B394E811AE114D00070DB69 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E741AE114D00070DB69 /* SwiftRegex.swift */; };
+		0B394E821AE114D00070DB69 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B394E751AE114D00070DB69 /* WebSocket.swift */; };
+		0B4AA4711AE6716900691BAB /* TalkRoomApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AA4701AE6716900691BAB /* TalkRoomApi.swift */; };
+		0B512DDC1AE641DB009ADFAE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DDB1AE641DB009ADFAE /* Parse.framework */; };
+		0B512DDE1AE64208009ADFAE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DDD1AE64208009ADFAE /* AudioToolbox.framework */; };
+		0B512DE01AE6420F009ADFAE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DDF1AE6420F009ADFAE /* CFNetwork.framework */; };
+		0B512DE21AE64217009ADFAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DE11AE64217009ADFAE /* CoreGraphics.framework */; };
+		0B512DE41AE6421F009ADFAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DE31AE6421F009ADFAE /* CoreLocation.framework */; };
+		0B512DE61AE64227009ADFAE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DE51AE64227009ADFAE /* MobileCoreServices.framework */; };
+		0B512DE81AE6422F009ADFAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DE71AE6422F009ADFAE /* QuartzCore.framework */; };
+		0B512DEA1AE64238009ADFAE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DE91AE64238009ADFAE /* Security.framework */; };
+		0B512DEC1AE6423F009ADFAE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DEB1AE6423F009ADFAE /* StoreKit.framework */; };
+		0B512DEE1AE64248009ADFAE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DED1AE64248009ADFAE /* SystemConfiguration.framework */; };
+		0B512DF01AE64250009ADFAE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DEF1AE64250009ADFAE /* libz.dylib */; };
+		0B512DF21AE64257009ADFAE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DF11AE64257009ADFAE /* libsqlite3.dylib */; };
+		0B512DF71AE6458C009ADFAE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DF61AE6458C009ADFAE /* Bolts.framework */; };
+		0B512DF91AE64598009ADFAE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B512DF81AE64598009ADFAE /* ParseUI.framework */; };
+		0B512DFB1AE64785009ADFAE /* TalkRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B512DFA1AE64785009ADFAE /* TalkRoomViewController.swift */; };
+		0BA85C271AE764F000C40D5E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA85C261AE764F000C40D5E /* MessagesViewController.swift */; };
+		0BA85C291AE7744700C40D5E /* MessageApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA85C281AE7744700C40D5E /* MessageApi.swift */; };
 		0BC752881ADFD567007AEA52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC752871ADFD567007AEA52 /* AppDelegate.swift */; };
-		0BC7528A1ADFD567007AEA52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC752891ADFD567007AEA52 /* ViewController.swift */; };
 		0BC7528D1ADFD567007AEA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC7528B1ADFD567007AEA52 /* Main.storyboard */; };
 		0BC7528F1ADFD567007AEA52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC7528E1ADFD567007AEA52 /* Images.xcassets */; };
 		0BC752921ADFD567007AEA52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC752901ADFD567007AEA52 /* LaunchScreen.xib */; };
@@ -29,10 +61,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2702B01AE6553700B72A49 /* TalkRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkRoom.swift; sourceTree = "<group>"; };
+		0B2702B31AE6557A00B72A49 /* TalkRoomsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkRoomsModel.swift; sourceTree = "<group>"; };
+		0B394E691AE114D00070DB69 /* SocketAckMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckMap.swift; sourceTree = "<group>"; };
+		0B394E6A1AE114D00070DB69 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		0B394E6B1AE114D00070DB69 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		0B394E6C1AE114D00070DB69 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		0B394E6D1AE114D00070DB69 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		0B394E6E1AE114D00070DB69 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		0B394E6F1AE114D00070DB69 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		0B394E701AE114D00070DB69 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		0B394E711AE114D00070DB69 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		0B394E721AE114D00070DB69 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		0B394E731AE114D00070DB69 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		0B394E741AE114D00070DB69 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		0B394E751AE114D00070DB69 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		0B4AA4701AE6716900691BAB /* TalkRoomApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkRoomApi.swift; sourceTree = "<group>"; };
+		0B512DDB1AE641DB009ADFAE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0B512DDD1AE64208009ADFAE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0B512DDF1AE6420F009ADFAE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0B512DE11AE64217009ADFAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B512DE31AE6421F009ADFAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0B512DE51AE64227009ADFAE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0B512DE71AE6422F009ADFAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0B512DE91AE64238009ADFAE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0B512DEB1AE6423F009ADFAE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0B512DED1AE64248009ADFAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0B512DEF1AE64250009ADFAE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0B512DF11AE64257009ADFAE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0B512DF31AE642EA009ADFAE /* SocketApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B512DF61AE6458C009ADFAE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		0B512DF81AE64598009ADFAE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		0B512DFA1AE64785009ADFAE /* TalkRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkRoomViewController.swift; sourceTree = "<group>"; };
+		0BA85C261AE764F000C40D5E /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		0BA85C281AE7744700C40D5E /* MessageApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageApi.swift; sourceTree = "<group>"; };
 		0BC752821ADFD567007AEA52 /* SocketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC752861ADFD567007AEA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BC752871ADFD567007AEA52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BC752891ADFD567007AEA52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BC7528C1ADFD567007AEA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BC7528E1ADFD567007AEA52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BC752911ADFD567007AEA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -49,6 +114,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B512DF21AE64257009ADFAE /* libsqlite3.dylib in Frameworks */,
+				0B512DF01AE64250009ADFAE /* libz.dylib in Frameworks */,
+				0B512DF91AE64598009ADFAE /* ParseUI.framework in Frameworks */,
+				0B512DEE1AE64248009ADFAE /* SystemConfiguration.framework in Frameworks */,
+				0B512DEC1AE6423F009ADFAE /* StoreKit.framework in Frameworks */,
+				0B512DEA1AE64238009ADFAE /* Security.framework in Frameworks */,
+				0B512DE81AE6422F009ADFAE /* QuartzCore.framework in Frameworks */,
+				0B512DE61AE64227009ADFAE /* MobileCoreServices.framework in Frameworks */,
+				0B512DF71AE6458C009ADFAE /* Bolts.framework in Frameworks */,
+				0B512DE41AE6421F009ADFAE /* CoreLocation.framework in Frameworks */,
+				0B512DE21AE64217009ADFAE /* CoreGraphics.framework in Frameworks */,
+				0B512DE01AE6420F009ADFAE /* CFNetwork.framework in Frameworks */,
+				0B512DDE1AE64208009ADFAE /* AudioToolbox.framework in Frameworks */,
+				0B512DDC1AE641DB009ADFAE /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +141,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B2702B21AE6556900B72A49 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				0BD7E9F01AE0D2B100E13A06 /* Message.swift */,
+				0B2702B01AE6553700B72A49 /* TalkRoom.swift */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
+		0B2702B51AE655C500B72A49 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0BD7E9F51AE0D30700E13A06 /* MessagesModel.swift */,
+				0B2702B31AE6557A00B72A49 /* TalkRoomsModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		0B394E671AE114B90070DB69 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0B394E681AE114D00070DB69 /* SocketIOClientSwift */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		0B394E681AE114D00070DB69 /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0B394E691AE114D00070DB69 /* SocketAckMap.swift */,
+				0B394E6A1AE114D00070DB69 /* SocketAnyEvent.swift */,
+				0B394E6B1AE114D00070DB69 /* SocketEngine.swift */,
+				0B394E6C1AE114D00070DB69 /* SocketEngineClient.swift */,
+				0B394E6D1AE114D00070DB69 /* SocketEventHandler.swift */,
+				0B394E6E1AE114D00070DB69 /* SocketFixUTF8.swift */,
+				0B394E6F1AE114D00070DB69 /* SocketIOClient.swift */,
+				0B394E701AE114D00070DB69 /* SocketLogger.swift */,
+				0B394E711AE114D00070DB69 /* SocketPacket.swift */,
+				0B394E721AE114D00070DB69 /* SocketParser.swift */,
+				0B394E731AE114D00070DB69 /* SocketTypes.swift */,
+				0B394E741AE114D00070DB69 /* SwiftRegex.swift */,
+				0B394E751AE114D00070DB69 /* WebSocket.swift */,
+			);
+			path = SocketIOClientSwift;
+			sourceTree = "<group>";
+		};
+		0B4AA46F1AE6715B00691BAB /* api */ = {
+			isa = PBXGroup;
+			children = (
+				0B4AA4701AE6716900691BAB /* TalkRoomApi.swift */,
+				0BA85C281AE7744700C40D5E /* MessageApi.swift */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		0B512DDA1AE641C0009ADFAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B512DF81AE64598009ADFAE /* ParseUI.framework */,
+				0B512DF61AE6458C009ADFAE /* Bolts.framework */,
+				0B512DF11AE64257009ADFAE /* libsqlite3.dylib */,
+				0B512DEF1AE64250009ADFAE /* libz.dylib */,
+				0B512DED1AE64248009ADFAE /* SystemConfiguration.framework */,
+				0B512DEB1AE6423F009ADFAE /* StoreKit.framework */,
+				0B512DE91AE64238009ADFAE /* Security.framework */,
+				0B512DE71AE6422F009ADFAE /* QuartzCore.framework */,
+				0B512DE51AE64227009ADFAE /* MobileCoreServices.framework */,
+				0B512DE31AE6421F009ADFAE /* CoreLocation.framework */,
+				0B512DE11AE64217009ADFAE /* CoreGraphics.framework */,
+				0B512DDF1AE6420F009ADFAE /* CFNetwork.framework */,
+				0B512DDD1AE64208009ADFAE /* AudioToolbox.framework */,
+				0B512DDB1AE641DB009ADFAE /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0BC752791ADFD567007AEA52 = {
 			isa = PBXGroup;
 			children = (
 				0BC752841ADFD567007AEA52 /* SocketApp */,
 				0BC7529A1ADFD567007AEA52 /* SocketAppTests */,
 				0BC752831ADFD567007AEA52 /* Products */,
+				0B512DDA1AE641C0009ADFAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +239,11 @@
 		0BC752841ADFD567007AEA52 /* SocketApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B512DF31AE642EA009ADFAE /* SocketApp-Bridging-Header.h */,
 				0BC752871ADFD567007AEA52 /* AppDelegate.swift */,
 				0BD7E9F21AE0D2B600E13A06 /* data */,
 				0BD7E9F31AE0D2C500E13A06 /* ui */,
+				0B394E671AE114B90070DB69 /* lib */,
 				0BD7E9F41AE0D2CD00E13A06 /* res */,
 			);
 			path = SocketApp;
@@ -119,9 +277,10 @@
 		0BD7E9F21AE0D2B600E13A06 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				0BD7E9F01AE0D2B100E13A06 /* Message.swift */,
-				0BD7E9F51AE0D30700E13A06 /* MessagesModel.swift */,
 				0BD7E9F71AE0D31C00E13A06 /* ModelManager.swift */,
+				0B4AA46F1AE6715B00691BAB /* api */,
+				0B2702B21AE6556900B72A49 /* entity */,
+				0B2702B51AE655C500B72A49 /* model */,
 			);
 			name = data;
 			sourceTree = "<group>";
@@ -129,7 +288,8 @@
 		0BD7E9F31AE0D2C500E13A06 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				0BC752891ADFD567007AEA52 /* ViewController.swift */,
+				0B512DFA1AE64785009ADFAE /* TalkRoomViewController.swift */,
+				0BA85C261AE764F000C40D5E /* MessagesViewController.swift */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -194,6 +354,7 @@
 				TargetAttributes = {
 					0BC752811ADFD567007AEA52 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 6KVAE7VQ7L;
 					};
 					0BC752961ADFD567007AEA52 = {
 						CreatedOnToolsVersion = 6.3;
@@ -246,10 +407,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD7E9F11AE0D2B100E13A06 /* Message.swift in Sources */,
-				0BC7528A1ADFD567007AEA52 /* ViewController.swift in Sources */,
+				0B394E7B1AE114D00070DB69 /* SocketFixUTF8.swift in Sources */,
+				0B394E7C1AE114D00070DB69 /* SocketIOClient.swift in Sources */,
+				0B394E7A1AE114D00070DB69 /* SocketEventHandler.swift in Sources */,
 				0BD7E9F81AE0D31C00E13A06 /* ModelManager.swift in Sources */,
+				0B394E7D1AE114D00070DB69 /* SocketLogger.swift in Sources */,
+				0B394E821AE114D00070DB69 /* WebSocket.swift in Sources */,
+				0B394E771AE114D00070DB69 /* SocketAnyEvent.swift in Sources */,
+				0B394E791AE114D00070DB69 /* SocketEngineClient.swift in Sources */,
+				0BA85C291AE7744700C40D5E /* MessageApi.swift in Sources */,
+				0B2702B11AE6553700B72A49 /* TalkRoom.swift in Sources */,
+				0B2702B41AE6557A00B72A49 /* TalkRoomsModel.swift in Sources */,
+				0B394E781AE114D00070DB69 /* SocketEngine.swift in Sources */,
+				0B394E801AE114D00070DB69 /* SocketTypes.swift in Sources */,
+				0B394E7E1AE114D00070DB69 /* SocketPacket.swift in Sources */,
+				0B394E7F1AE114D00070DB69 /* SocketParser.swift in Sources */,
+				0B394E761AE114D00070DB69 /* SocketAckMap.swift in Sources */,
+				0B4AA4711AE6716900691BAB /* TalkRoomApi.swift in Sources */,
+				0B394E811AE114D00070DB69 /* SwiftRegex.swift in Sources */,
+				0B512DFB1AE64785009ADFAE /* TalkRoomViewController.swift in Sources */,
 				0BC752881ADFD567007AEA52 /* AppDelegate.swift in Sources */,
 				0BD7E9F61AE0D30700E13A06 /* MessagesModel.swift in Sources */,
+				0BA85C271AE764F000C40D5E /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +487,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naoto Kato (PHFWQAV74N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naoto Kato (PHFWQAV74N)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -327,9 +507,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d5fe2588-33f1-452f-8671-8a47a24f5c72";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,8 +547,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d5fe2588-33f1-452f-8671-8a47a24f5c72";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -378,9 +560,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naoto Kato (PHFWQAV74N)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SocketApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d5fe2588-33f1-452f-8671-8a47a24f5c72";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocketApp/SocketApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -388,9 +580,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SocketApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d5fe2588-33f1-452f-8671-8a47a24f5c72";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocketApp/SocketApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +610,7 @@
 				INFOPLIST_FILE = SocketAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketApp.app/SocketApp";
 			};
 			name = Debug;
@@ -424,6 +626,7 @@
 				INFOPLIST_FILE = SocketAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocketApp.app/SocketApp";
 			};
 			name = Release;

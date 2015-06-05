@@ -12,6 +12,17 @@ class ModelManager {
     static let sharedInstance = ModelManager()
     private init(){}
     
-    
     let messagesModel = MessagesModel()
+    let talkRoomsModel = TalkRoomsModel()
+    
+    var messagesModelDict = [String: MessagesModel]()
+    
+    func getMessagesModel(room: TalkRoom) -> MessagesModel {
+        if let model = messagesModelDict[room.objectId] {
+            return model
+        }
+        let model = MessagesModel(room)
+        messagesModelDict[room.objectId] = model
+        return model
+    }
 }
